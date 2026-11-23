@@ -9,7 +9,3 @@ services:
     image: vulnerables/web-dvwa
     ports: ["127.0.0.1:8080:80"]
 
-  crapi:                 # Alternativ für APIs: OWASP crAPI (eigenes Setup, siehe README)
-    image: alpine
-    command: ["echo", "crAPI: siehe https://github.com/OWASP/crAPI"]
-    profiles: ["info"]
