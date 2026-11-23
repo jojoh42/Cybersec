@@ -1,0 +1,15 @@
+# Absichtlich verwundbare Übungs-Apps – NUR lokal betreiben, nie ins Internet stellen!
+# Start:  docker compose up -d        Stopp: docker compose down
+services:
+  juice-shop:            # OWASP Juice Shop – moderne Web-App mit 100+ Challenges
+    image: bkimminich/juice-shop
+    ports: ["127.0.0.1:3000:3000"]
+
+  dvwa:                  # Damn Vulnerable Web App – Klassiker, Schwierigkeit einstellbar
+    image: vulnerables/web-dvwa
+    ports: ["127.0.0.1:8080:80"]
+
+  crapi:                 # Alternativ für APIs: OWASP crAPI (eigenes Setup, siehe README)
+    image: alpine
+    command: ["echo", "crAPI: siehe https://github.com/OWASP/crAPI"]
+    profiles: ["info"]

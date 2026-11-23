@@ -1,0 +1,6 @@
+# Keine Secrets / Burp-Projekte / Scan-Ergebnisse mit fremden Daten einchecken
+*.burp
+*.env
+.env
+scans/
+loot/
