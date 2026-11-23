@@ -25,7 +25,7 @@
 |---|---|
 | ⭐ [PortSwigger Web Security Academy](https://portswigger.net/web-security) | **Beste kostenlose Web-Hacking-Schule.** Theorie + 250+ Labs. Kern deiner Phase 2 |
 | ⭐ [TryHackMe](https://tryhackme.com) 💶 | Sehr einsteigerfreundlich, geführte Räume. Pfade: *Pre Security*, *Web Fundamentals*, *Jr Penetration Tester* |
-| [Hack The Box](https://www.hackthebox.com) / [HTB Academy](https://academy.hackthebox.com) 💶 | Anspruchsvoller; Academy-Pfad *Bug Bounty Hunter* ist sehr gut |
+| ⭐ [Hack The Box](https://www.hackthebox.com) / [HTB Academy](https://academy.hackthebox.com) 💶 | Anspruchsvoller; Academy-Pfad *Web Penetration Tester* (früher *Bug Bounty Hunter*) ist sehr gut, Labs mit realistischen Maschinen – Details in [`PLATTFORMEN.md`](PLATTFORMEN.md) |
 | ⭐ [Hacker101 (HackerOne)](https://www.hacker101.com) | Kostenlose Videos + CTF; gute CTF-Punkte geben private Einladungen |
 | [PentesterLab](https://pentesterlab.com) 💶 | Fokus auf Code-Review & tiefes Verständnis |
 | [OverTheWire](https://overthewire.org/wargames/) | Linux-Basics (*Bandit*) |
@@ -60,6 +60,8 @@
 - **InsiderPhD** – sehr gut für Anfänger, Methodik
 - **STÖK** – Motivation & Methodik
 - **LiveOverflow** – tiefes Verständnis, CTF
+- **IppSec** – Walkthroughs zu fast allen HTB-Maschinen ([ippsec.rocks](https://ippsec.rocks) durchsucht sie nach Technik)
+- **John Hammond** – CTF-Lösungen, Malware, Einsteiger-freundlich
 - **Critical Thinking – Bug Bounty Podcast** – aktuelle Techniken von Top-Huntern
 - **Bugcrowd** – LevelUp-Talks
 

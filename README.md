@@ -7,6 +7,7 @@ Dieses Repo ist dein Lern-Logbuch: Roadmap, kuratierte Quellen, eigene Labs und 
 | Datei / Ordner | Wofür |
 |---|---|
 | [`ROADMAP.md`](ROADMAP.md) | Lernpfad in 6 Phasen mit Checkboxen – hake ab, was du geschafft hast |
+| [`PLATTFORMEN.md`](PLATTFORMEN.md) | Wochenplan & Checklisten für TryHackMe, HTB Academy, Hack The Box, CTFs |
 | [`RESSOURCEN.md`](RESSOURCEN.md) | Die besten Seiten, Kurse, Bücher, Kanäle (inkl. Bugcrowd) |
 | [`METHODIK.md`](METHODIK.md) | Checkliste: Wie gehe ich an ein Bug-Bounty-Ziel heran? |
 | [`labs/`](labs/) | Absichtlich verwundbare Apps lokal per Docker starten – legal üben |

@@ -3,6 +3,8 @@
 Richtwert: 5–10 Std./Woche → ca. 4–6 Monate bis zur ersten ernsthaften Jagd.
 Nicht hetzen: Verstehen schlägt Tempo. Zu jedem Lab eine kurze Notiz in `notizen/` schreiben.
 
+👉 Den **Wochenplan mit konkreten Modulen auf TryHackMe, HTB Academy, Hack The Box und PortSwigger** findest du in [`PLATTFORMEN.md`](PLATTFORMEN.md).
+
 ---
 
 ## Phase 0 – Grundlagen (2–4 Wochen)
@@ -15,6 +17,7 @@ Ohne diese Basis bleibt Web-Hacking Auswendiglernen.
 - [ ] **Web-Technik**: HTML, JavaScript-Grundlagen, wie arbeiten Frontend ↔ API ↔ Datenbank
 - [ ] **Etwas Programmieren**: Python-Grundlagen (Skripte, `requests`), etwas SQL
 - [ ] TryHackMe: *Pre Security* Pfad
+- [ ] HTB Academy: *Web Requests* + *Introduction to Web Applications*
 
 ## Phase 1 – Werkzeuge (1–2 Wochen, parallel)
 
@@ -27,6 +30,7 @@ Ohne diese Basis bleibt Web-Hacking Auswendiglernen.
 ## Phase 2 – Die wichtigsten Schwachstellen (6–10 Wochen)
 
 Hauptquelle: **PortSwigger Web Security Academy** – pro Thema erst Theorie, dann Apprentice-, dann Practitioner-Labs.
+Parallel: **HTB Academy-Pfad *Web Penetration Tester*** (gleiche Themen, anderer Blickwinkel) und passende TryHackMe-Räume.
 Begleitend: OWASP Top 10 lesen, Juice Shop lokal (`labs/`).
 
 | # | Thema | Theorie | Apprentice-Labs | Practitioner-Labs |
@@ -65,7 +69,9 @@ Tipp: IDOR, Access Control, Business Logic und Info Disclosure bringen Einsteige
 - [ ] [`METHODIK.md`](METHODIK.md) durcharbeiten und an dich anpassen
 - [ ] Subdomain-Enumeration, Inhaltssuche, JS-Dateien nach Endpunkten durchsuchen
 - [ ] App wie ein Nutzer komplett durchklicken, alle Rollen/Features kartieren
-- [ ] 2–3 "Retired"-Maschinen/Challenges auf HTB oder TryHackMe ohne Hilfe lösen
+- [ ] HTB *Starting Point* Tier 0–2 abschließen
+- [ ] 3–4 Easy-Maschinen auf HTB ohne Writeup lösen (danach IppSec/0xdf ansehen)
+- [ ] HTB Web-Challenges (Easy) + Hacker101 CTF
 
 ## Phase 5 – Erste Bug-Bounty-Jagd
 
@@ -78,4 +84,4 @@ Tipp: IDOR, Access Control, Business Logic und Info Disclosure bringen Einsteige
 ## Phase 6 – Vertiefen & Spezialisieren
 
 Wähle 1–2 Schwerpunkte: API-Security, Mobile (Android), Cloud (AWS/Azure-Fehlkonfiguration), AI/LLM-Security, Hardware/IoT.
-Optional Zertifikate: **PortSwigger BSCP**, **HTB CBBH/CWES**, OSCP (eher Pentest).
+Optional Zertifikate: **PortSwigger BSCP** (Web, praxisnah), **HTB CWES** (Nachfolger von CBBH, Web), **TryHackMe PT1** (Einstieg), **HTB CPTS** oder OSCP (eher klassischer Pentest).
