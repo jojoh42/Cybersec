@@ -4,3 +4,14 @@
 .env
 scans/
 loot/
+
+# secassist: Kundendaten, Berichte und Logs nie committen
+.claude/scope.yaml
+scopes/
+secassist/logs/
+secassist/reports/
+logs/
+reports/
+*.egg-info/
+__pycache__/
+.pytest_cache/

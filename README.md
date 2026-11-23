@@ -10,6 +10,7 @@ Dieses Repo ist dein Lern-Logbuch: Roadmap, kuratierte Quellen, eigene Labs und 
 | [`PLATTFORMEN.md`](PLATTFORMEN.md) | Wochenplan & Checklisten für TryHackMe, HTB Academy, Hack The Box, CTFs |
 | [`RESSOURCEN.md`](RESSOURCEN.md) | Die besten Seiten, Kurse, Bücher, Kanäle (inkl. Bugcrowd) |
 | [`METHODIK.md`](METHODIK.md) | Checkliste: Wie gehe ich an ein Bug-Bounty-Ziel heran? |
+| [`secassist/`](secassist/) | **KI-Sicherheits-Assistent** (Claude) für autorisierte Prüfungen von Code, Web-Apps und interner Infrastruktur – CLI, Web-Oberfläche, Claude-Code-Integration |
 | [`labs/`](labs/) | Absichtlich verwundbare Apps lokal per Docker starten – legal üben |
 | [`vorlagen/`](vorlagen/) | Vorlagen für Bug-Reports und Lab-Writeups |
 | [`notizen/`](notizen/) | Deine eigenen Notizen (eine Datei pro Thema oder Lab) |

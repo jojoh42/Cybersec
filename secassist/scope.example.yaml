@@ -1,0 +1,24 @@
+# Scope-Datei: Was darf geprüft werden? Alles andere wird automatisch blockiert.
+# Pro Kunde/Projekt eine eigene Datei anlegen (z. B. scopes/kunde-a.yaml) – NICHT committen, falls vertraulich.
+
+engagement: "Pentest Webshop Q4"            # Name des Auftrags
+client: "Beispiel GmbH"                      # Kunde oder "intern"
+authorized_by: "Max Mustermann, CTO – Auftrag vom 2026-11-20"   # Wer hat schriftlich freigegeben?
+valid_until: 2026-12-31                      # Danach verweigert das Tool jede Aktion
+
+max_requests_per_second: 10                  # Rate-Limit für Scanner
+
+targets:
+  hosts:
+    - staging.example.com
+    - "*.dev.example.com"                    # alle Subdomains
+  networks:
+    - 10.20.0.0/24                           # internes Testnetz
+  code_paths:                                # relativ zu dieser Datei oder absolut
+    - ../../mein-projekt
+
+exclude:
+  hosts:
+    - payment.dev.example.com                # z. B. Drittanbieter, nicht freigegeben
+  networks:
+    - 10.20.0.1/32                           # Gateway nicht anfassen

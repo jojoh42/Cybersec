@@ -1,0 +1,23 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/scope_guard.py\"" }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "ask": [
+      "Bash(nmap:*)", "Bash(nuclei:*)", "Bash(httpx:*)", "Bash(ffuf:*)", "Bash(curl:*)", "Bash(wget:*)",
+      "Bash(testssl.sh:*)", "Bash(nikto:*)", "Bash(subfinder:*)", "Bash(naabu:*)", "Bash(katana:*)",
+      "Bash(gobuster:*)", "Bash(feroxbuster:*)", "Bash(masscan:*)"
+    ],
+    "deny": [
+      "Edit(./.claude/scope.yaml)", "Write(./.claude/scope.yaml)",
+      "Edit(./.claude/hooks/**)", "Write(./.claude/hooks/**)", "Edit(./.claude/settings.json)"
+    ]
+  }
+}
